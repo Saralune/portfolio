@@ -9,6 +9,10 @@ import { Section } from '../interfaces/section.interface';
 export class HeaderComponent implements OnInit {
   sections: Section[] = [
     {
+      name: 'Home',
+      href: '#',
+    },
+    {
       name: 'Compétences',
       href: '#skills',
     },

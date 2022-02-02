@@ -1,26 +1,30 @@
-<h1>Projets</h1>
+<div class="bckg">
+  <h1>Projets</h1>
 
-<!-- *ngFor -->
-<ul class="d1 d-flex flex-row">
-  <li
-    class="card m-10 p-20 text-align-center"
-    *ngFor="let project of projects; let i = index"
-  >
-    <img [src]="project.img" [alt]="project.name" />
+  <!-- *ngFor -->
+  <ul>
+    <li
+      class="card m-10 p-20 text-align-center"
+      *ngFor="let project of projects; let i = index"
+    >
+      <img [src]="project.img" [alt]="project.name" />
 
-    <h2>{{ project.name }}</h2>
+      <h2>{{ project.name }}</h2>
 
-    <p class="text-justify">{{ project.introduction }}</p>
+      <p class="text-justify">{{ project.introduction }}</p>
 
-    <p class="d-flex flex-row flex-wrap flex-justify-content-space-evenly m-10">
-      <span
-        class="btn btn-secondary"
-        *ngFor="let tag of projects; let i = index"
+      <p
+        class="d-flex flex-row flex-wrap flex-justify-content-space-evenly m-10"
       >
-        {{ tag.tags[i] }}
-      </span>
-    </p>
+        <span
+          class="btn btn-secondary"
+          *ngFor="let project of projects; let i = index"
+        >
+          {{ project.tags[i] }}
+        </span>
+      </p>
 
-    <a href="" class="btn">Détails</a>
-  </li>
-</ul>
+      <button class="btn">Détails</button>
+    </li>
+  </ul>
+</div>

@@ -1,58 +1,22 @@
 <h1>Parcours</h1>
 
-<!-- <div class="container">
-  <div class="right">
-    <h2>Développeuse web stagiaire</h2>
-    <p>Blabla</p>
+<div class="grid" *ngFor="let career of careers; let i = index">
+  <div class="col2 row{{ i + 1 }} rond"></div>
+  <div class="hr col2 row{{ i + 1 }}"></div>
+  <div class="col3 row{{ i + 1 }}">
+    <h2>{{ career.title }}</h2>
+    <p>{{ career.description }}</p>
   </div>
+  <h3 class="col1 row{{ i + 1 }}">{{ career.date }}</h3>
 
-  <h3 class="left">Aout à Octobre 2021</h3>
-
-  <div class="right">
-    <h2>Formation développeuse Web & Web Mobile</h2>
-    <p>Blabla</p>
-    <ul>
+  <!--   <div class="col2 row2 rond"></div>
+  <div class="hr col2 row2"></div>
+  <div class="col3 row2 row">
+    <h2>Formation Développeuse Web & Web Mobile</h2>
+    <ul class="training">
       <li>php</li>
       <li>html/css</li>
     </ul>
   </div>
-  <h3 class="left">Mars à Novembre 2021</h3>
-</div> -->
-
-<!-- <div class="grid">
-  <div class="row">
-    <div class="col1 row1 text-align-center">Mars à Novembre 2021</div>
-    <div class="col2 row1">Développeuse Web & Web Mobile</div>
-  </div>
-</div> -->
-<div class="test"></div>
-<!-- <div class="left"><h3>2021 - 2 mois</h3></div>
-<div class="rond"></div>
-<div class="right">
-  <h2>Développeuse web stagiaire</h2>
-  <p>blabla</p>
-</div> -->
-
-<li class="right">
-  <div class="rond"></div>
-  <h2>Développeuse Web stagiaire</h2>
-  <p>Bnlalalalalala</p>
-</li>
-<h3 class="left">Aout - Octobre 2021</h3>
-
-<li class="right">
-  <div class="rond"></div>
-  <h2>Formation Développeuse Web & Web Mobile</h2>
-  <ul class="training">
-    <li>php</li>
-    <li>html/css</li>
-  </ul>
-</li>
-<h3 class="left">Mars à Novembre 2021</h3>
-
-<li class="right">
-  <div class="rond"></div>
-  <h2>Bilan de compétences</h2>
-  <p>Bnlalalalalala</p>
-</li>
-<h3 class="left">2021</h3>
+  <h3 class="col1 row2">Mars - Novembre 2021</h3> -->
+</div>

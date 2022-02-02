@@ -9,16 +9,55 @@ import { Project } from '../interfaces/projects.interface';
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
-      name: 'Exemple',
-      img: '../src/assets/Illustration-Sarah-v2.jpg',
-      tags: ['#HTML', '#CSS', '#JavaScript'],
-      introduction: 'Blablabla, ceci est un projet.',
+      name: 'Portfolio',
+      img: '../../assets/projects/couverture.jpg',
+      tags: ['#Angular', '#JavaScript', '#TypeScript', '#Git', '#HTML', '#CSS'],
+      introduction: 'Site personnel qui retrace mon parcours et mes projets.',
     },
     {
-      name: 'exemple2',
-      img: '../src/assets/Illustration-Sarah-v2.jpg',
-      tags: ['#HTML', '#CSS', '#JavaScript'],
-      introduction: '',
+      name: 'Blog',
+      img: '../../assets/projects/couverture.jpg',
+      tags: ['#WordPress'],
+      introduction:
+        'Blog personnel présentant mes projets de couture upcycling (= cousus à partir de vêtements inutilisés, entre autres).',
+    },
+    {
+      name: 'MarketPlace',
+      img: '../../assets/projects/couverture.jpg',
+      tags: [
+        '#PHP',
+        '#Prestashop',
+        '#JavaScript',
+        '#MySQL',
+        '#Git',
+        '#HTML',
+        '#CSS',
+      ],
+      introduction:
+        'Refonte des pages (statique et dynamique) et ajout de champs dans le front office vendeur.',
+    },
+    {
+      name: 'Parc Couture',
+      img: '../../assets/projects/couverture.jpg',
+      tags: [
+        '#PHP',
+        '#JavaScript',
+        '#MySQL',
+        '#Git',
+        '#FullCalendar',
+        '#Bootstrap',
+        '#HTML',
+        '#CSS',
+      ],
+      introduction:
+        "Projet de formation développeuse. Création d'un site de réservation en ligne avec gestion des utilisateurs et des ateliers disponibles.",
+    },
+    {
+      name: 'Site Cocktails',
+      img: '../../assets/projects/couverture.jpg',
+      tags: ['#Angular', '#TypeScript', '#Git', '#HTML', '#CSS'],
+      introduction:
+        "Création d'un site qui répertorie quelques recettes de cocktails. Exercice réalisé dans le cadre de la formation Dyma.",
     },
   ];
   constructor() {}
