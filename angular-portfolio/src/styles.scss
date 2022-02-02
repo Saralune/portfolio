@@ -1,1 +1,153 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  //variables CSS
+  --font-family: "PT Sans", sans-serif;
+  --font-family-title: "Mochiy Pop P One", "Helvetica", sans-serif;
+  --primary: rgb(28, 185, 224);
+  --secondary: #f7f7f7;
+  // --secondary: #778beb;
+  // --accent: #e5546d;
+  --lightgray: #ddd;
+  --text-regular: #444;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-regular);
+  //background-color: #f7f7f7;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--font-family-title);
+}
+
+//layout
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-justify: justify;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-justify-content-center {
+  justify-content: center;
+}
+
+.flex-justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.flex-align-items-between {
+  align-items: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+.flex-50 {
+  flex: 1 1 50%;
+}
+
+//util
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+//theme
+
+.btn {
+  background-color: var(--primary);
+  border-radius: 15px;
+  padding: 5px 30px;
+  box-shadow: 5px 5px 5px var(--lightgray);
+  &-secondary {
+    padding: 2px 30px;
+    background-color: var(--secondary);
+    margin: 10px;
+  }
+}
+
+//debug
+
+.d1 {
+  border: 1px solid red;
+}
+
+.d2 {
+  border: 1px solid green;
+}

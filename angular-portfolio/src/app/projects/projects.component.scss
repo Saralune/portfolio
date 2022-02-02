@@ -1,0 +1,20 @@
+img {
+  width: 350px;
+  height: auto;
+}
+
+.container {
+  border: 2px solid red;
+}
+
+.card {
+  //ADD MEDIA QUERIES !!!!!!!!!!!!!!
+  width: 33%;
+  //height: auto;
+  border: 2px solid var(--secondary);
+  box-shadow: 2px 2px 2px var(--secondary);
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,127 @@
+/* .left {
+  position: relative;
+  //font-family: "Montserrat", sans-serif;
+  text-align: center;
+  left: -390px;
+  top: -70px;
+  //top: calc(50% - 50px);
+}
+
+.right {
+  position: relative;
+  margin-left: 250px;
+  padding: 30px;
+
+  border-left: 2px solid orange;
+}
+
+.container {
+} */
+
+/* .row::after {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  background-color: var(--secondary);
+  top: 25px;
+  left: -10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.col1 {
+  grid-column: 1;
+  border-right: 2px solid green;
+  padding: 10px;
+  align-items: center;
+}
+
+.col2 {
+  grid-column: 2;
+  padding: 10px;
+} */
+
+// .col2::after {
+//   content: "";
+//   position: absolute;
+//   width: 15px;
+//   left: 163px;
+//   height: 15px;
+//   /* right: -17px; */
+//   background-color: var(--primary);
+//   /* top: calc(50% - 900px); */
+//   border-radius: 50%;
+// }
+
+/* .row1 {
+  grid-row: 1;
+}
+
+.row2 {
+  grid-row: 2;
+} */
+
+.training {
+  margin-left: 50px;
+  list-style-type: circle;
+}
+
+hr {
+  transform: rotate(90deg);
+  height: 100%;
+  position: relative;
+  left: -300px;
+}
+
+.test {
+  content: "";
+  background: blue;
+  height: 2px;
+  width: 800px;
+  left: px;
+  transform: rotate(90deg);
+  position: relative;
+  top: 152px;
+  left: -189px;
+}
+
+.rond {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  background-color: var(--secondary);
+  top: 25px;
+  left: -103px;
+}
+
+.container {
+  padding: 5px 50px;
+  margin-left: 100px;
+  border-left: 2px solid var(--primary);
+}
+
+.left {
+  position: relative;
+  top: calc(50%);
+  //text-align: center;
+  left: 10px;
+  //transform: translateY(-50%);
+  //top: -60px;
+}
+
+.right {
+  list-style-type: none;
+  position: relative;
+  margin-left: 250px;
+  padding: 0 50px 20px;
+  border: 5px solid orange;
+  border: 5px solid orange;
+}

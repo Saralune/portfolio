@@ -1,0 +1,10 @@
+<nav>
+  <ul class="d-flex flex-justify-content-space-evenly">
+    <li><!--Home + icone-->Home</li>
+    <li *ngFor="let section of sections">
+      <a [href]="section.href">
+        {{ section.name }}
+      </a>
+    </li>
+  </ul>
+</nav>
