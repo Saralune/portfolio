@@ -25,6 +25,10 @@ export class HeaderComponent implements OnInit {
       href: '#projects',
     },
     {
+      name: 'Hobbies',
+      href: '#hobbies',
+    },
+    {
       name: 'Contact',
       href: '#contact',
     },

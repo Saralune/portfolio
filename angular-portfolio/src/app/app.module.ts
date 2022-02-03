@@ -9,6 +9,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { CareerComponent } from './career/career.component';
 import { ChuckNorrisComponent } from './chuck-norris/chuck-norris.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +22,9 @@ import { ChuckNorrisComponent } from './chuck-norris/chuck-norris.component';
     SkillsComponent,
     ContactComponent,
     ChuckNorrisComponent,
+    HobbiesComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })

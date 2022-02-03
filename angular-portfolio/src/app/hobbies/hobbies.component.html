@@ -1,0 +1,9 @@
+<h1 id="hobbies">Hobbies</h1>
+<div>
+  <ul class="container d-flex">
+    <li *ngFor="let hobbie of hobbies">
+      <fa-icon [icon]="hobbie.icon"></fa-icon>
+      <p>{{ hobbie.title }}</p>
+    </li>
+  </ul>
+</div>
