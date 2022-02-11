@@ -1,8 +1,9 @@
-<div class="bckg">
+<div class="bckg component">
   <h1>Projets</h1>
 
   <!-- *ngFor -->
   <ul>
+    <!-- list -->
     <li
       class="card m-10 p-20 text-align-center"
       *ngFor="let project of projects; let i = index"
@@ -13,16 +14,16 @@
 
       <p class="text-justify">{{ project.introduction }}</p>
 
-      <p
+      <div
         class="d-flex flex-row flex-wrap flex-justify-content-space-evenly m-10"
       >
-        <span
+        <p
           class="btn btn-secondary"
-          *ngFor="let project of projects; let i = index"
+          *ngFor="let tag of project.tags; let z = index"
         >
-          {{ project.tags[i] }}
-        </span>
-      </p>
+          {{ project.tags[z] }}
+        </p>
+      </div>
 
       <button class="btn">Détails</button>
     </li>

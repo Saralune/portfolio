@@ -1,22 +1,27 @@
-<h1>Parcours</h1>
+<div class="mb-20 component">
+  <h1>Parcours</h1>
 
-<div class="grid" *ngFor="let career of careers; let i = index">
-  <div class="col2 row{{ i + 1 }} rond"></div>
-  <div class="hr col2 row{{ i + 1 }}"></div>
-  <div class="col3 row{{ i + 1 }}">
-    <h2>{{ career.title }}</h2>
-    <p>{{ career.description }}</p>
-  </div>
-  <h3 class="col1 row{{ i + 1 }}">{{ career.date }}</h3>
+  <!-- grid -->
+  <div class="grid" *ngFor="let career of careers; let i = index">
+    <!-- col 2 -->
+    <div class="col2 row1 rond"></div>
+    <div class="hr col2 row1"></div>
 
-  <!--   <div class="col2 row2 rond"></div>
-  <div class="hr col2 row2"></div>
-  <div class="col3 row2 row">
-    <h2>Formation Développeuse Web & Web Mobile</h2>
-    <ul class="training">
-      <li>php</li>
-      <li>html/css</li>
-    </ul>
+    <!-- col 3 -->
+    <div class="col3 row1 box-shadow">
+      <h2>{{ career.title }}</h2>
+      <!-- detail of experience -->
+      <p>{{ career.p1 }}</p>
+      <!-- more details -->
+      <ul>
+        <li>{{ career.p2 }}</li>
+        <li>{{ career.p3 }}</li>
+        <li>{{ career.p4 }}</li>
+        <li>{{ career.p5 }}</li>
+      </ul>
+    </div>
+
+    <!-- col 1 -->
+    <h3 class="col1 row1">{{ career.date }}</h3>
   </div>
-  <h3 class="col1 row2">Mars - Novembre 2021</h3> -->
 </div>

@@ -1,3 +1,37 @@
+.bckg {
+  text-align: -webkit-center;
+}
+
 ul {
   list-style-type: none;
+}
+
+.grid {
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  grid-gap: 30px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.title {
+  color: var(--primary);
+}
+
+fa-icon {
+  font-size: 60px;
+}
+
+fa-icon:hover {
+  color: var(--primary);
 }

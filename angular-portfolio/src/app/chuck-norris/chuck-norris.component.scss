@@ -17,10 +17,15 @@ fa-icon {
 
 .outer-container {
   margin: 20px;
-  padding: 20px;
   width: 80%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+@media (max-width: 678px) {
+  .outer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 .bckg {

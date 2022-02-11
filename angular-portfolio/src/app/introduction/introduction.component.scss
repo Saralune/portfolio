@@ -5,6 +5,11 @@
   border-radius: 15px;
   width: 80%;
 }
+
+.intro {
+  margin: 60px 0;
+}
+
 div > img {
   width: 300px;
   height: 300px;
@@ -20,23 +25,11 @@ div > img {
     margin-left: 0;
     width: 100%;
   }
-}
-/* div > img {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  float: left;
-  shape-outside: circle();
-  padding: 10px;
-  position: relative;
-  left: -10px;
-}
-@media (max-width: 992px) {
-  div > img {
-    width: 400px;
-    height: 400px;
+  header {
+    bottom: -80px !important;
+    height: 80% !important;
   }
-} */
+}
 
 h1 + p {
   text-align: center;
@@ -55,34 +48,20 @@ h1 + p {
   z-index: 0;
   top: 0;
 }
-/* @media screen and (max-width: 1023px) {
-  .backgroundImg {
-    height: 100vh;
-  }
-
-  header {
-    bottom: -200px;
-  }
-
-  #home {
-    font-size: 80px;
-  }
-} */
 
 header {
   position: relative;
   background-color: rgb(247, 247, 247, 0.6);
   border-radius: 15px;
-  //box-shadow
   width: 80%;
   padding: 0 30px 30px 30px;
   z-index: 1;
-  bottom: -200px;
+  bottom: -180px;
   height: 50%;
 }
 
 #home {
-  font-size: 70px;
+  font-size: 60px;
   word-wrap: break-word;
 }
 

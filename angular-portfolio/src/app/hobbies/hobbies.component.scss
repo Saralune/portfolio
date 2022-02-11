@@ -4,8 +4,10 @@
   border-radius: 15px;
   padding: 20px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
   width: 70%;
+  height: 150px;
 }
 
 @media (max-width: 768px) {
@@ -13,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
+    height: auto;
   }
   li {
     padding: 10px;
@@ -33,4 +36,9 @@ li {
 
 fa-icon {
   font-size: 30px;
+}
+@media (min-width: 768px) {
+  fa-icon:hover {
+    font-size: 60px;
+  }
 }

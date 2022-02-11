@@ -10,5 +10,5 @@ export class IntroductionComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
-  faSearch = faSearch;
+  faSearch = faSearch; 
 }

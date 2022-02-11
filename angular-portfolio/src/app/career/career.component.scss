@@ -1,5 +1,5 @@
 li {
-  margin-left: 50px;
+  list-style-type: none;
 }
 
 .rond {
@@ -16,27 +16,26 @@ p {
 
 .grid {
   grid-template-columns: 5fr 1fr 20fr;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: 1fr;
   align-items: center;
   //gap: 15px;
-  margin: 0 200px;
+  margin: 20px 200px;
 }
 @media (max-width: 1300px) {
   .grid {
-    margin: 0 100px;
+    margin: 20px 100px;
   }
 }
 @media (max-width: 992px) {
   .grid {
-    margin: 0 20px;
+    margin: 20px 20px;
   }
 }
 @media (max-width: 768px) {
   .grid {
     display: flex;
     flex-direction: column-reverse;
-    margin: 20px;
-    padding: 10px;
+    padding: 0 10px;
   }
   .col1 {
     color: var(--primary);
@@ -51,8 +50,6 @@ p {
 
 .col3 {
   margin: 5px;
-  //width: 65%;
-  //height: 150px;
   padding: 20px;
   background-color: var(--secondary);
   border-radius: 15px;
@@ -68,10 +65,10 @@ p {
 
 .hr {
   transform: rotate(90deg);
-  position: relative;
-  //right: 12px;
+  //position: relative;
   height: 3px;
   background-color: var(--primary);
-  width: 122px;
-  top: 18px;
+  width: 9em;
+  //width: 122px;
+  //top: 18px;
 }

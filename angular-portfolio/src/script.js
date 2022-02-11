@@ -1,4 +1,6 @@
-const chuckNorrisJson = fetch("https://api.chucknorris.io/jokes/random");
+const chuckNorrisJson = fetch(
+  "https://api.chucknorris.io/jokes/random?category=dev"
+);
 let fact = "";
 
 //première méthode, pas optimisée, préférable d'utiliser await

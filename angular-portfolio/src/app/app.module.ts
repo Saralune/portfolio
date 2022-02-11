@@ -9,8 +9,9 @@ import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { CareerComponent } from './career/career.component';
 import { ChuckNorrisComponent } from './chuck-norris/chuck-norris.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HobbiesComponent } from './hobbies/hobbies.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { mysql, NgxSimpleIconsModule } from 'ngx-simple-icons';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,11 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
     ChuckNorrisComponent,
     HobbiesComponent,
   ],
-  imports: [BrowserModule, FontAwesomeModule],
+  imports: [
+    BrowserModule,
+    FontAwesomeModule,
+    NgxSimpleIconsModule.pick({ MySQL }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
