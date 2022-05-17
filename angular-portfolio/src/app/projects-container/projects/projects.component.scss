@@ -1,11 +1,12 @@
 h2 {
-  margin-top: 10px;
+  margin: 10px 0 15px;
 }
 
 img {
-  width: 350px;
-  height: auto;
+  width: 270px;
+  height: 160px;
   border-radius: 15px;
+  object-fit: cover;
 }
 
 ul {
@@ -49,4 +50,12 @@ ul {
   .card {
     width: 80%;
   }
+}
+
+.btn-secondary {
+  margin: 8px;
+}
+
+.space-between {
+  justify-content: space-between;
 }
