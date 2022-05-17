@@ -21,6 +21,7 @@ ul {
   border-radius: 15px;
   width: 100%;
   justify-content: space-around;
+  align-items: center;
   padding: 20px;
 }
 
@@ -28,10 +29,12 @@ ul {
   color: var(--primary);
 }
 
-fa-icon {
+fa-icon,
+.iconify {
   font-size: 60px;
 }
 
-fa-icon:hover {
+fa-icon:hover,
+svg:hover {
   color: var(--primary);
 }

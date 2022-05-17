@@ -7,7 +7,6 @@ import {
   faPhp,
   faWordpressSimple,
 } from '@fortawesome/free-brands-svg-icons';
-import { IconNameEnum } from 'ngx-simple-icons';
 
 @Component({
   selector: 'app-skills',
@@ -25,6 +24,4 @@ export class SkillsComponent implements OnInit {
   faGit = faGit;
   faWordpressSimple = faWordpressSimple;
   faBootstrap = faBootstrap;
-
-  public iconNames = IconNameEnum;
 }

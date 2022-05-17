@@ -4,14 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { IntroductionComponent } from './introduction/introduction.component';
-import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { CareerComponent } from './career/career.component';
 import { ChuckNorrisComponent } from './chuck-norris/chuck-norris.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { mysql, NgxSimpleIconsModule } from 'ngx-simple-icons';
+import { ProjectsContainerComponent } from './projects-container/projects-container.component';
+import { ProjectsComponent } from './projects-container/projects/projects.component';
+import { ProjectsDetailsComponent } from './projects-container/projects-details/projects-details.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +25,10 @@ import { mysql, NgxSimpleIconsModule } from 'ngx-simple-icons';
     ContactComponent,
     ChuckNorrisComponent,
     HobbiesComponent,
+    ProjectsContainerComponent,
+    ProjectsDetailsComponent,
   ],
-  imports: [
-    BrowserModule,
-    FontAwesomeModule,
-    NgxSimpleIconsModule.pick({ MySQL }),
-  ],
+  imports: [BrowserModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
